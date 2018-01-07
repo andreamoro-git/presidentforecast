@@ -1,0 +1,238 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!-- Mirrored from presidentforecast.andreamoro.net/docs/methodology by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 07 Jan 2018 20:53:57 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+	 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Generator" content="Xaraya :: 1.1.3" />
+<meta name="Keywords" content="presidential elections forecasts probabilistic forecasts hillary obama barack clinton mccain romney thompson huckinson
+electoral-vote" />
+<meta name="Description" content="Probabilistic forecasts of the 2008 presidential elections" />
+<meta name="rating" content="General" />
+
+
+
+<!-- Linking for Mozilla and related browser site tab -->
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://presidentforecast.andreamoro.net/docs/methodology?theme=rss" />
+
+
+    <link rel="alternate" type="text/html" title="Print" href="http://presidentforecast.andreamoro.net/docs/methodology?theme=print" />
+
+
+
+<link rel="pingback" href="../ws.html" />
+<link rel="Top" type="text/html" href="../index.html" />
+<link rel="Parent" type="text/html" href="../index.html" />
+<link rel="author" href="http://presidentforecast.andreamoro.net/docs/Presidential election forecasts" />
+
+
+
+
+
+
+<link rel="contents" type="text/html" href="../articles/map/index.html" />
+
+      <title>Presidential election forecasts :methodology</title>
+<!--  the following styles were supplied from component theme  -->
+<!--  link style  -->
+<link rel="stylesheet" type="text/css" href="../themes/pres/style/style.css" media="screen" title="Pres" />
+<!--  the following styles were supplied from component module  -->
+<!--  link style  -->
+<link rel="stylesheet" type="text/css" href="http://presidentforecast.andreamoro.net/modules/comments/xarstyles/comments.css" media="screen" />
+<!--  the following styles were supplied from component common  -->
+<!--  link style  -->
+<link rel="stylesheet" type="text/css" href="../modules/base/xarstyles/xarcore-xhtml1-strict.css" media="screen" />
+</head>
+<body>
+<div id="header" >
+ <h1><a href="../index.html"><img alt="2008 presidential election forecasts" src="../themes/pres/images/logo.jpg" /></a></h1>
+</div>
+<div id="container">
+<div id="sublogo">
+
+    <ul>
+<li><a href="../index.html"><img src="../themes/pres/images/home.gif" alt="home" title="home"/></a></li>
+<li><a href="../base/charts.html"><img src="../themes/pres/images/charts.gif" alt="charts" title="charts" /></a></li>
+<li><a href="../news.html"><img src="../themes/pres/images/sitenews.gif" alt="site news" title="site news"/></a></li>
+<li><a href="methodology.html"><img src="../themes/pres/images/methodology.gif" alt="methodology" title="methodology" /></a></li>
+<li><a href="../base/data.html"><img src="../themes/pres/images/polls.gif" alt="polls" title="polls" /></a></li>
+<li><a href="http://www.econ.umn.edu/~amoro/Research/presprobs2.html"><img src="../themes/pres/images/2004site.gif" alt="2004 site" title="2004 elections web site" /></a></li>
+<li><a href="whoami.html"><img src="../themes/pres/images/siteauthor2.gif" alt="site author" title="site author"/></a></li>
+</ul> 
+
+
+
+
+
+</div>
+	  <div id="only">
+<h1>methodology					</h1>
+                    <div style="text-align:right">
+                        <span class="xar-sub">  </span>
+                   </div>
+					<div style="float:right">
+
+
+    <div style="margin-top: 15px;">
+<script type="text/javascript"><!--
+google_ad_client = "pub-7844974166697199";
+/* 468x60, created 4/26/08 */
+google_ad_slot = "5786233511";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+
+
+
+
+
+</div>
+                    <h3>Introduction</h3>
+<p>
+This web site presents predictions of the 2008 presidential electoral 
+college outcome (if elections were held today) based on state level polls collected by 
+<a href="http://www.electoral-vote.com/">electoral-vote.com</a>. At least once a day, a script fetches those site&#39;s
+polls table, computes simulations of election outcomes (details below) based on state-level polls and posts them on the front page.
+</p>
+<h3>Simulation-based predictions: winning probability and expected number of electoral votes </h3>
+<p>
+I use simple statistical techniques that take into account how close the candidates are in each state&#39;s poll to compute how likely one candidate is to win in November, and how many electoral votes each candidate will receive. Polls report only imprecise information about the electorate&#39;s
+opinion. However, it is possible to use the poll results together
+with the reported margin of error to compute the probability that one candidate wins the state. I compute this probability in each state, and use it to simulate 10000 electoral college outcomes in each state. I add up the electoral votes across states, in each simulated elections. Then, I compute the fraction of elections won by each candidate, the average number of electoral college votes obtained by the candidate, and the standard deviation of the electoral college votes. These are the numbers reported in the main display on the front page.
+For a more technical explanation, see below.
+</p>
+<h3>Electoral votes if candidates win states where they are ahead<br />
+</h3>
+<p>
+This information is also reported on the main display and is simpler to explain.
+It calculates
+electoral college votes assuming candidates win with certainty states
+where they are ahead in the poll. This does not take into account how
+close the candidates are in the poll. In states with 50-50 shares I
+assign each candidate 1/2 of the college&#39;s volte. 
+</p>
+<h3>Electoral votes distribution</h3>
+<p>
+The histograms reports the percentage of simulated elections resulting with a given range of electoral votes going to Obama. It&#39;s helpful to provide an idea of the precision of the estimated expected number of electoral votes.
+</p>
+<h3>Warning </h3>
+<p>
+Please use caution in using these results to predict who will winthe election in November (see
+notes 2, 3, and 5 below).  My computations assume that the only 
+problem with these polls is sampling error. That is, every voter has an equal probability of 
+being sampled. Obviously, pollsters may also make systematic mistakes (for example,
+they may not sample enough young voters, or they may have a biased method to pick likely voters ...). 
+These mistakes are not corrected by my methodology. 
+I prefer to view these results as a tool to interpret current state polls.
+</p>
+<h3>Technical notes<br />
+</h3>
+<a name="sim1" title="sim1"></a>
+<h2> </h2>
+<ol>
+	<li>
+	I compute Obama&#39;s vote share out of the total of Obama+McCain shares
+	(i.e. I ignore other candidates&#39; share, if present, and undecided voters). I assume that, in each state, the sampled Obama vote
+	share follows a normal distribution, with mean equal to the share and standard deviation 
+	equal to the reported margin of error divided by 1.96 (see note 4). 
+	I then compute the probability that Obama&#39;s vote share in the
+	population is greater than 50%. Finally, I use this probability 
+	to independently simulate 100000 election outcomes in each state. 
+	Using the results from the simulations, I count the electoral votes in each simulation and report summary 
+	statistics. 
+	</li>
+	<li>
+	I assume that the state winner gets all state&#39;s electoral votes. However, <strong>Maine</strong> (&lt;span class=&quot;dem&quot;&gt;4 electoral votes&lt;/span&gt;) 
+	and <strong>Nebraska</strong> (&lt;span class=&quot;rep&quot;&gt;5 votes&lt;/span&gt;)
+	use a winner-take-all system at the congressional district level, with
+	two electoral votes going to the statewide winner. This introduces a
+	possible error in the prediction of vote difference of no more than
+	3 votes. </li>
+	<li>It is not clear how to count undecided votes. <a href="http://www.prospect.org/web/page.ww?section=root&amp;name=ViewWeb&amp;articleId=8694">
+	</a>In 2004, I ignored the undecided and my prediction turned out t be correct. I&#39;m going to stick with this assumption
+	</li>
+	<li>
+	Pollsters report the margin of error to provide a 95% confidence interval
+	around each candidate&#39;s reported vote share. 
+	There is a big variance in prediction across pollsters and time, as documented
+	by <a href="http://www.electoral-vote.com/pastpolls.html">
+	this table from electoral-vote.com</a>. Somebody believes that the margins of error 
+	are <a href="http://www.mason-dixon.com/news_text.cfm?news_id=158">
+	understated by a factor of 1.4</a>. 
+	</li>
+	<li>Please note that results are accurate as long as the polls are accurate, and as long as the page
+	I use to fetch poll results is accurate and unbiased in the choice of polls to report. While I have no
+	reasons to believe it is not, it is also true that a particular choice of pollsters
+	over the 50 states can skew the outcome
+	of the electoral college one way or the other. The simulation based prediction is to some extent robust
+	to this kind of data-coaching, but is nevertheless affected by it.
+	</li>
+	<li>There may be frewuent swings in the candidates winning
+	probability. This is because some pivotal states are also very close calls and the simulations are sensitive to even
+	small changes in winning margins <strong>If this causes you motion sickness</strong>, I suggest you rather look at the average winning margin and its confidence interval. 
+	If a big state such as Florida goes from the one candidate to the other as a result of a change in the poll&#39;s prediction, there&#39;s a big change in the expected number of electoral votes.  
+	</li>
+	<li>
+	The expected average of electoral votes gives an idea of what we should expect the winning
+	margin to be. It is computed as the the average of the winning margins in 
+	all simulations of the electoral college. The 95% confidence interval reports the 
+	accuracy of the prediction of the winning margin.<strong>NOTE that the average 
+	winning margin may be in favor of the democratic candidate even if the probability that the democratic candidate
+	wins is below 50%</strong>. This happens when the democratic candidate wins less than half of the simulations, 
+	but the winning margins in those cases are larger than McCain&#39;s winning margin in 
+	the rest of the simulations. A possibility when the probabilities of Obama or McCain winning are close to 50%. 
+	</li>
+	<li>
+	It is possible for one candidate to be winning with probability above 50%,
+	but to be behind in the basic predictions, computed adding up all college votes from states where the candidate has a share above 50% in the poll. This
+	is one of the cases where my page provides the best contribution to understanding what is going
+	on in the polls. This may happen when one candidate is winning by small margins in states that have
+	a majority of electoral college votes. The other candidate is winning by wider margin in the other
+	states. The basic prediction does not care about whether the lead of one candidate is 1% or 30%: it 
+	assigns all state votes to that candidate. However, intuitively, the probability that a candidate
+	wins that state is different if the polls reports a 1% lead or a 30% lead. Therefore the probabilistic
+	prediction may give a probability above 50% to the candidate that is actually losing a majority of
+	electoral college votes. 
+	</li>
+</ol>
+                    <span class="xar-quote">  </span>
+
+<p class="xar-sub">
+Updated:  07 Jan 18 14:53</p>
+
+
+            
+
+
+
+<p>
+There are no comments attached to this item.</p>
+<script type="text/javascript" src="http://presidentforecast.andreamoro.net/docs/modules/base/xartemplates/includes/submitonce.js"></script>
+
+            	  </div>
+	</div>
+<div id="footer">
+
+
+    <h2><a href="methodology.html">methodology</a> :
+<a href="whoami.html">site author</a> :
+<a href="../base/data.html">recent polls</a> :
+<a href="../index.html">home</a></h2>
+
+
+
+
+
+
+<p> <a href="http://www.xaraya.com/"><img src="http://presidentforecast.andreamoro.net/docs/modules/base/xarimages/xaraya.gif" alt="Powered by Xaraya" class="xar-noborder" /></a></p>
+
+</div>
+</body>
+ 
+<!-- Mirrored from presidentforecast.andreamoro.net/docs/methodology by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 07 Jan 2018 20:53:57 GMT -->
+</html>

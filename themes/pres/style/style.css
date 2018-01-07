@@ -1,0 +1,384 @@
+@import "http://presidentforecast.andreamoro.net/themes/pres/style/verticalmenu.css";
+
+/* colors:
+red #e00202;
+blue #010066;
+white #fbfbfb;
+clinton #00e;
+obama #99e;
+
+*/
+div { padding: 0; margin: 0}
+#container {
+  width: 910px;
+  margin: 0 auto 0 auto;
+  }
+#only {
+  margin: 0 35px 0 35px;
+  }
+
+#main {
+  float:left;
+  width: 464px;
+  padding-right: 36px;
+  border-right: 4px solid #e00202;
+  text-align: right;
+  /*
+  background-image: url("/themes/pres/images/border.jpg") ;
+  background-repeat: repeat-y;
+  background-position: right center;
+  padding-right: 55px;
+  width: 480px;
+  */
+} 
+#main a {
+  color: #010066
+  }
+div#sublogo {
+  text-align: center;
+  margin: -20px 0 0px 0;
+  }
+#sublogo li {
+  display: inline;
+  padding: 0 3px;
+  }
+#sublogo a {
+  color: #fff;
+  }
+#right {
+  margin-left: 506px;
+   margin-top: 10px;
+  width: 368px;
+  padding-left: 36px;
+}
+#right li { font-size: 1.2em; }
+#header {
+clear: both;
+  background-image: url('http://presidentforecast.andreamoro.net/themes/pres/images/topbkg.png');
+  background-repeat: repeat-x;
+  text-align: center;
+  min-height: 160px;
+  }
+
+.alr { text-align:right; vertical-align: middle}
+#footer {
+  clear: both; 
+  background-color: #010066;
+  padding-top: 2em;
+  color: #fff;
+  background-repeat: repeat-x;
+  background-image: url('http://presidentforecast.andreamoro.net/themes/pres/images/botbkg.png');
+  text-align: center;
+  min-height: 5em;
+}
+#footer a {
+  color: #fff;
+  }
+#footer h2 { display: inline; font-size: 1.4em;}
+.leftblock {
+  border: 2px solid #e00202;
+  padding: 8px;
+  margin-bottom: 2em;
+  -moz-border-radius: 2em;
+  }
+.dark {
+  background-color: #010066;
+  padding: 1em;
+  margin-bottom: 2em;
+  -moz-border-radius: 2em;
+  }
+.sub {
+	}
+   
+.clinton {
+  color: #00e;
+  }
+.obama {
+  color: #99e;
+}
+.cwol {
+  background-color: #00e;
+  color: #fff;
+}
+.clow {
+  background-color: #99e;
+  color: #fff;
+}
+.ctow td, span.ctow{
+  border: 1px dotted #99e;
+}
+.ctol td, span.ctol {
+  border: 1px dashed #00e;
+}
+.clot td, span.clot {
+  border: 1px dashed #99e;
+}
+.cwot td, span.cwot  {
+  border: 1px dotted #00e;
+}
+.deml td:first-child, span.deml {
+  border: 1px solid #e00;
+}
+.demw td:first-child, span.demw {
+  border: 1px solid #00e;
+}
+
+.title {
+  font-weight: bold
+}
+
+.round_box {
+   background: #010066;
+   width:370px;
+   margin-top: 10px;
+}
+.round_top div {
+   background: url('http://presidentforecast.andreamoro.net/themes/pres/images/round_tl.png') no-repeat top left;
+}
+.round_top {
+   background: url('http://presidentforecast.andreamoro.net/themes/pres/images/round_tr.png') no-repeat top right;
+}
+.round_bottom div {
+   background: url('http://presidentforecast.andreamoro.net/themes/pres/images/round_bl.png') no-repeat bottom left;
+}
+.round_bottom {
+   background: url('http://presidentforecast.andreamoro.net/themes/pres/images/round_br.png') no-repeat bottom right;
+}
+
+.round_top div, .round_top, 
+.round_bottom div, .round_bottom {
+   width: 100%;
+   height: 25px;
+   font-size: 1px;
+}
+.round_content { margin: 0 25px; }
+
+.roundedcornr_box_812547 {
+	background: url('http://presidentforecast.andreamoro.net/themes/pres/images/roundedcornr_812547_tl.png') no-repeat top left;
+}
+.roundedcornr_top_812547 {
+	background: url('http://presidentforecast.andreamoro.net/themes/pres/images/roundedcornr_812547_tr.png') no-repeat top right;
+}
+.roundedcornr_bottom_812547 {
+	background: url('http://presidentforecast.andreamoro.net/themes/pres/images/roundedcornr_812547_bl.png') no-repeat bottom left;
+}
+.roundedcornr_bottom_812547 div {
+	background: url('http://presidentforecast.andreamoro.net/themes/pres/images/roundedcornr_812547_br.png') no-repeat bottom right;
+}
+.roundedcornr_content_812547 {
+	background: url('http://presidentforecast.andreamoro.net/themes/pres/images/roundedcornr_812547_r.png') top right repeat-y;
+}
+
+.roundedcornr_top_812547 div,.roundedcornr_top_812547,
+.roundedcornr_bottom_812547 div, .roundedcornr_bottom_812547 {
+	width: 100%;
+	height: 15px;
+	font-size: 1px;
+}
+.roundedcornr_content_812547, .roundedcornr_bottom_812547 {
+	margin-top: -5px;
+}
+.roundedcornr_content_812547 { padding: 15px; }
+
+a {
+  text-decoration: none;
+  color: #e00202;
+}
+a:hover {
+  text-decoration: underline;
+}
+blockquote {
+}
+body {
+    background-color: #fbfbfb;
+	margin: 0;
+	padding: 0;
+	font-family:trebuchet MS;
+	color: #010066;
+	font-size: 1em;
+}
+.lefblock , .leftblock table, .roundedcornr_content_812547 {
+    text-transform: lowercase !important;
+	}
+code {
+}
+h1
+{ 
+  font-size: 1.8em;
+  margin-top: 0.5em;
+  margin-bottom: .5em;
+  padding: 0;
+  line-height: 1em;
+  color: #c00;
+}
+div#header h1 { margin:0}
+h2 {
+  font-size: 1.3em;
+  margin-top: 0.1em;
+  margin-bottom: .1em;
+  font-weight: 400;
+}
+h3 {
+}
+h4 {
+}
+th {
+  background-color: #dddd00;
+}
+td {
+  vertical-align: middle;}
+th,td {
+  padding: 0 3px 0 3px;
+  }
+table.big {
+  font-size: 1.3em;
+  text-align: left;
+  margin: 0 0 0 auto;
+}
+table.big th {
+  background-color: transparent;
+  border-bottom: 1px solid #010066;
+  }
+thead {
+}
+tbody {
+}
+tfoot {
+}
+p {
+}
+pre {
+}
+input {
+}
+button {
+}
+select {
+}
+textarea {
+}
+img {
+  border: 0;
+}
+li {
+  margin:0;
+  padding:0;
+}
+ul {
+  margin:0;
+  padding:0;
+  list-style-type: none;
+}
+ol {
+  margin:0;
+  padding:0;
+}
+sup {
+}
+sub {
+}
+
+/*  XARAYA REQUIRED INDIVIDUAL CLASSES */
+td.xar-norm {}
+td.xar-alt {}
+
+/*  XARAYA REQUIRED ANONYMOUS CLASSES  */
+
+/* these defaults apply to the left block group */
+.xar-block-head{
+}
+.xar-block-title {
+}
+.xar-block-body {
+}
+.xar-block-foot {
+}
+
+/* right block group classes */
+.xar-block-head-right{
+}
+.xar-block-title-right {
+}
+.xar-block-body-right {
+}
+.xar-block-foot-right {
+}
+
+/* topnav block group classes */
+.xar-block-head-topnav {
+}
+.xar-block-title-topnav {
+}
+.xar-block-body-topnav {
+}
+.xar-block-foot-topnav {
+}
+
+/* center block group classes */
+.xar-block-head-center{
+}
+.xar-block-title-center {
+}
+.xar-block-body-center {
+}
+.xar-block-foot-center {
+}
+.xar-mod-head {
+}
+.xar-mod-title {
+  font-size: 1.8em;
+  margin-top: 0.5em;
+  margin-bottom: .5em;
+  padding: 0;
+  line-height: 1em;
+}
+.xar-mod-body {
+}
+.xar-mod-foot {
+}
+.xar-alt {
+}
+.xar-accent {
+}
+.xar-alt-outline {
+}
+.xar-accent-outline {
+}
+.xar-norm-outline {
+}
+.xar-norm {
+}
+.xar-sub {
+  font-size : 0.7em;
+}
+.xar-menu-section {
+}
+.xar-menu-section-current {
+}
+.xar-menu-item {
+}
+.xar-menu-item-current {
+}
+.xar-menu-item:hover {
+}
+.xar-menu-subitem {
+}
+.xar-menu-subitem:hover {
+
+}
+.xar-menu-subitem-current {
+}
+.xar-menu-item-current > .xar-menu-subitem > a {
+}
+.xar-menu-item-current > .xar-menu-subitem > a:visited {
+}
+.xar-title {
+}
+.xar-error {
+}
+.xar-form-label {
+  width: 10em !important;
+  }
+.xar-form-container-after {
+  margin-left: 0 !important;
+  }
